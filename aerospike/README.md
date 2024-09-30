@@ -1,5 +1,12 @@
 Module to learn and practice Aerospike
 
+1. Install Docker
+2. Run Docker
+3. Run Aerospike server
+```
+docker run -d --name aerospike -p 3000-3002:3000-3002 aerospike:ee-7.1.0.6 
+```
+
 # Basic read and write operations
 ```
 import aerospike
